@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.itercumeanabs2;
+})();
 })();
 </script>
 ```
@@ -135,6 +137,7 @@ m = it.next().value;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumeanabs2@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
@@ -157,6 +160,7 @@ while ( true ) {
     }
 }
 
+})();
 })();
 </script>
 </body>
@@ -267,13 +271,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean/tree/umd
+[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean/tree/umd/tree/umd
 
-[@stdlib/stats/iter/cumeanabs]: https://github.com/stdlib-js/stats-iter-cumeanabs/tree/umd
+[@stdlib/stats/iter/cumeanabs]: https://github.com/stdlib-js/stats-iter-cumeanabs/tree/umd/tree/umd
 
-[@stdlib/stats/iter/cusumabs2]: https://github.com/stdlib-js/stats-iter-cusumabs2/tree/umd
+[@stdlib/stats/iter/cusumabs2]: https://github.com/stdlib-js/stats-iter-cusumabs2/tree/umd/tree/umd
 
-[@stdlib/stats/iter/meanabs2]: https://github.com/stdlib-js/stats-iter-meanabs2/tree/umd
+[@stdlib/stats/iter/meanabs2]: https://github.com/stdlib-js/stats-iter-meanabs2/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
