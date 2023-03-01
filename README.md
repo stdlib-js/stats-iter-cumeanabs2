@@ -165,10 +165,10 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
--   <span class="package-name">[`@stdlib/stats/iter/cumeanabs`][@stdlib/stats/iter/cumeanabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean of absolute values.</span>
--   <span class="package-name">[`@stdlib/stats/iter/cusumabs2`][@stdlib/stats/iter/cusumabs2]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative sum of squared absolute values.</span>
--   <span class="package-name">[`@stdlib/stats/iter/meanabs2`][@stdlib/stats/iter/meanabs2]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean of squared absolute values for all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cumeanabs`][@stdlib/stats/iter/cumeanabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean of absolute values.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cusumabs2`][@stdlib/stats/iter/cusumabs2]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative sum of squared absolute values.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/meanabs2`][@stdlib/stats/iter/meanabs2]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean of squared absolute values for all iterated values.</span>
 
 </section>
 
