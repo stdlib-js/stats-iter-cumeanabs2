@@ -30,10 +30,14 @@ The cumulative [arithmetic mean][arithmetic-mean] of squared absolute values is 
 
 <!-- <equation class="equation" label="eq:cumulative_arithmetic_mean_squared_absolute_values" align="center" raw="\bar{x}_n = \frac{1}{n} \sum_{i=0}^n x_i^2" alt="Equation for the cumulative arithmetic mean of squared absolute values."> -->
 
-<div class="equation" align="center" data-raw-text="\bar{x}_n = \frac{1}{n} \sum_{i=0}^n x_i^2" data-equation="eq:cumulative_arithmetic_mean_squared_absolute_values">
+```math
+\bar{x}_n = \frac{1}{n} \sum_{i=0}^n x_i^2
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\bar{x}_n = \frac{1}{n} \sum_{i=0}^n x_i^2" data-equation="eq:cumulative_arithmetic_mean_squared_absolute_values">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d3d95236f834a139a4cb700b0acc4f1667a9ffa5/lib/node_modules/@stdlib/stats/iter/cumeanabs2/docs/img/equation_cumulative_arithmetic_mean_squared_absolute_values.svg" alt="Equation for the cumulative arithmetic mean of squared absolute values.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -43,14 +47,30 @@ The cumulative [arithmetic mean][arithmetic-mean] of squared absolute values is 
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-iter-cumeanabs2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import itercumeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumeanabs2@deno/mod.js';
+var itercumeanabs2 = require( '@stdlib/stats-iter-cumeanabs2' );
 ```
 
 #### itercumeanabs2( iterator )
@@ -58,7 +78,7 @@ import itercumeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cum
 Returns an [iterator][mdn-iterator-protocol] which iteratively computes a cumulative [arithmetic mean][arithmetic-mean] of squared absolute values.
 
 ```javascript
-import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
+var array2iterator = require( '@stdlib/array-to-iterator' );
 
 var arr = array2iterator( [ 2.0, 1.0, 3.0, -7.0, -5.0 ] );
 var it = itercumeanabs2( arr );
@@ -104,8 +124,8 @@ m = it.next().value;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import itercumeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumeanabs2@deno/mod.js';
+var runif = require( '@stdlib/random-iter-uniform' );
+var itercumeanabs2 = require( '@stdlib/stats-iter-cumeanabs2' );
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
@@ -167,7 +187,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -211,7 +231,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -233,13 +253,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean/tree/deno
+[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean
 
-[@stdlib/stats/iter/cumeanabs]: https://github.com/stdlib-js/stats-iter-cumeanabs/tree/deno
+[@stdlib/stats/iter/cumeanabs]: https://github.com/stdlib-js/stats-iter-cumeanabs
 
-[@stdlib/stats/iter/cusumabs2]: https://github.com/stdlib-js/stats-iter-cusumabs2/tree/deno
+[@stdlib/stats/iter/cusumabs2]: https://github.com/stdlib-js/stats-iter-cusumabs2
 
-[@stdlib/stats/iter/meanabs2]: https://github.com/stdlib-js/stats-iter-meanabs2/tree/deno
+[@stdlib/stats/iter/meanabs2]: https://github.com/stdlib-js/stats-iter-meanabs2
 
 <!-- </related-links> -->
 
