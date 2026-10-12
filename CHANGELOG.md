@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-11)
+## Unreleased (2026-10-12)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0bc0bc7`](https://github.com/stdlib-js/stdlib/commit/0bc0bc795f828b48792e5408632ba7d0b28709eb) - **test:** migrate `stats/iter/cumeanabs2` to ULP-based assertions [(#15937)](https://github.com/stdlib-js/stdlib/pull/15937) _(by Athan Reines)_
 -   [`d72d712`](https://github.com/stdlib-js/stdlib/commit/d72d712ba9f8c600f880705813245463d2229803) - **bench:** refactor to use string interpolation in `stats/iter` [(#11395)](https://github.com/stdlib-js/stdlib/pull/11395) _(by Karan Anand)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 
 </section>
